@@ -15,89 +15,96 @@ app.use(bodyParser.urlencoded({extended: false}));
 var tutorials = [
   {
     id: 1,
-    title: "Android Studio Tutorial For Beginners",
+    title: "Text Animation 1",
     description: "Learn how to install Android Studio and then go through this tutorial to build your very first app",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/F-k5gwz_91o" frameborder="0" allowfullscreen></iframe></div>',
-    thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/androidwhite-learn.png"
+    iframe:'<div class="container"><iframe class="video" src="https://youtu.be/ehPLYGJ08hI" frameborder="0" allowfullscreen></iframe></div>',
+    thumbnail: "http://res.cloudinary.com/dr9sypj5b/image/upload/v1472709931/Screen_Shot_2016-09-01_at_2.04.20_AM_xcsfr3.png"
   },
   {
     id: 2,
-    title: "How to Support High Resolution on iOS - @1x @2x @3x",
+    title: "Text Animation 2",
     description: "Learn how to support multiple screen resolutions and devices such as iPhone 4, iPhone 5, iPhone 6, iPhone 6 Plus",
-    thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/ios-image-sizes.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/WOnczJSsMqk" frameborder="0" allowfullscreen></iframe></div>'
+    thumbnail: "http://res.cloudinary.com/dr9sypj5b/image/upload/v1472709931/Screen_Shot_2016-09-01_at_2.04.48_AM_jszdze.png",
+    iframe: '<div class="container"><iframe class="video" src="https://youtu.be/tRVflqWchdc" frameborder="0" allowfullscreen></iframe></div>'
   },
   {
     id: 3,
-    title: "How to build an Apple TV App Tutorial for tvOS",
-    description: "In this app we download popular movies from an IMDB service and implement scrolling and navigation on the Apple TV",
-    thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/tv-test.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/XmLdEcq-QNI" frameborder="0" allowfullscreen></iframe></div>'
+    title: "Stick man animation 1 using Maya",
+    description: "Watch this super awesome and ridiculously basic stick animation using Maya",
+    thumbnail: "http://res.cloudinary.com/dr9sypj5b/image/upload/v1472709934/Screen_Shot_2016-09-01_at_2.04.59_AM_znuvhm.png",
+    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/watch?v=Nv0YI_5FLxM" frameborder="0" allowfullscreen></iframe></div>'
   },
   {
     id: 4,
-    title: "Photoshop Tutorial For Beginners How To Create a Logo",
-    description: "Learn how to make a professional logo in Photoshop without any design experience. This is a Photoshop tutorial for beginners that will give you all the basics of Photoshop that you need to make a logo.",
-    thumbnail: "https://s3-us-west-2.amazonaws.com/devslopesvideo/logo.png",
-    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/embed/CrKnswpftp4" frameborder="0" allowfullscreen></iframe></div>'
+    title: "Stick man animation 2 using Maya",
+    description: "Watch this super awesome and ridiculously basic stick animation using Maya",
+    thumbnail: "http://res.cloudinary.com/dr9sypj5b/image/upload/v1472709934/Screen_Shot_2016-09-01_at_2.04.59_AM_znuvhm.png",
+    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/watch?v=mC7O8iahsyk" frameborder="0" allowfullscreen></iframe></div>'
+  },
+  {
+    id: 5,
+    title: "Stick man animation 3 using Maya",
+    description: "Watch this super awesome and ridiculously basic stick animation using Maya",
+    thumbnail: "http://res.cloudinary.com/dr9sypj5b/image/upload/v1472709934/Screen_Shot_2016-09-01_at_2.04.59_AM_znuvhm.png",
+    iframe: '<div class="container"><iframe class="video" src="https://www.youtube.com/watch?v=g_WqxnfmhRk" frameborder="0" allowfullscreen></iframe></div>'
   }
 ];
 
 var comments = [
-    
-    
+
+
 ];
 
 var locations = [
-    
+
     {
         name: "Bayside Marketplace",
         address: "401 Biscayne Blvd., R106, Miami, FL 33132"
     }
-    
+
 ];
 
 
 //app.put('/comments', function(req, res) {
-//    
+//
 //   var someOBJ = req.body;
 //   var theId = someOBJ.uniqueId;
-//    
+//
 //    //talk to the database, find the record by the id
 //    //then youreplace the existing record with req.body
 //    res.send("Successfully updated");
-//    
+//
 //});
 
 app.post('/comments', function(req,res) {
-    
+
     var comment = req.body;
-    
+
     if (comment) {
-        
+
         if (comment.id && comment.commentBody) {
-            
+
             comments.unshift(comment);
             res.send("You successfully posted a comment");
-            
+
         }
         else {
-            
-            
+
+
             res.send("You posted invalid data");
-            
+
         }
-        
+
     }
     else {
-        
+
         res.send("Your post has no body!");
-        
+
     }
-    
+
     console.log(comments);
-    
-    
+
+
 });
 
 app.get('/tutorials', function(req, res) {
@@ -112,9 +119,3 @@ app.get('/comments', function(req, res) {
 
 
 app.listen(6069);
-
-
-
-
-
-
