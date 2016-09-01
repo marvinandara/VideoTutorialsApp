@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771596271D72366300CE14C4 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771596261D72366300CE14C4 /* LocationAnnotation.swift */; };
+		77513B8E1D6FAB6200603D1F /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77513B8D1D6FAB6200603D1F /* VideoCell.m */; };
+		77513B921D6FB0EC00603D1F /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 77513B911D6FB0EC00603D1F /* Video.m */; };
+		77513B961D6FC4D300603D1F /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77513B951D6FC4D300603D1F /* VideoVC.m */; };
 		779668261D6E81CA00F7A3BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 779668251D6E81CA00F7A3BE /* main.m */; };
 		779668291D6E81CA00F7A3BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 779668281D6E81CA00F7A3BE /* AppDelegate.m */; };
 		7796682C1D6E81CA00F7A3BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7796682B1D6E81CA00F7A3BE /* ViewController.m */; };
@@ -14,9 +18,21 @@
 		779668321D6E81CA00F7A3BE /* TutorialVideos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 779668301D6E81CA00F7A3BE /* TutorialVideos.xcdatamodeld */; };
 		779668341D6E81CA00F7A3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779668331D6E81CA00F7A3BE /* Assets.xcassets */; };
 		779668371D6E81CA00F7A3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779668351D6E81CA00F7A3BE /* LaunchScreen.storyboard */; };
+		779668411D6E820000F7A3BE /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 779668401D6E820000F7A3BE /* HTTPService.m */; };
+		779D30D11D712D5B00554AF0 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D30D01D712D5B00554AF0 /* CommentCell.m */; };
+		779D30D41D71349000554AF0 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D30D31D71349000554AF0 /* Comment.m */; };
+		779D30D71D714B4A00554AF0 /* customCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D30D61D714B4A00554AF0 /* customCommentView.m */; };
+		779D30DC1D71747C00554AF0 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D30DB1D71747C00554AF0 /* AboutUsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		771596261D72366300CE14C4 /* LocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		77513B8C1D6FAB6200603D1F /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		77513B8D1D6FAB6200603D1F /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		77513B901D6FB0EC00603D1F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		77513B911D6FB0EC00603D1F /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		77513B941D6FC4D300603D1F /* VideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
+		77513B951D6FC4D300603D1F /* VideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoVC.m; sourceTree = "<group>"; };
 		779668211D6E81CA00F7A3BE /* TutorialVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779668251D6E81CA00F7A3BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		779668271D6E81CA00F7A3BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +44,16 @@
 		779668331D6E81CA00F7A3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779668361D6E81CA00F7A3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		779668381D6E81CA00F7A3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7796683F1D6E820000F7A3BE /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		779668401D6E820000F7A3BE /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		779D30CF1D712D5B00554AF0 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		779D30D01D712D5B00554AF0 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		779D30D21D71349000554AF0 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		779D30D31D71349000554AF0 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		779D30D51D714B4A00554AF0 /* customCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCommentView.h; sourceTree = "<group>"; };
+		779D30D61D714B4A00554AF0 /* customCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCommentView.m; sourceTree = "<group>"; };
+		779D30D81D716BF300554AF0 /* TutorialVideos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TutorialVideos-Bridging-Header.h"; sourceTree = "<group>"; };
+		779D30DB1D71747C00554AF0 /* AboutUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77513B8B1D6FAB3D00603D1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77513B8C1D6FAB6200603D1F /* VideoCell.h */,
+				77513B8D1D6FAB6200603D1F /* VideoCell.m */,
+				779D30CF1D712D5B00554AF0 /* CommentCell.h */,
+				779D30D01D712D5B00554AF0 /* CommentCell.m */,
+				779D30D51D714B4A00554AF0 /* customCommentView.h */,
+				779D30D61D714B4A00554AF0 /* customCommentView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		77513B8F1D6FB02200603D1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77513B901D6FB0EC00603D1F /* Video.h */,
+				77513B911D6FB0EC00603D1F /* Video.m */,
+				779D30D21D71349000554AF0 /* Comment.h */,
+				779D30D31D71349000554AF0 /* Comment.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		77513B931D6FC49B00603D1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7796682A1D6E81CA00F7A3BE /* ViewController.h */,
+				7796682B1D6E81CA00F7A3BE /* ViewController.m */,
+				77513B941D6FC4D300603D1F /* VideoVC.h */,
+				77513B951D6FC4D300603D1F /* VideoVC.m */,
+				779D30D81D716BF300554AF0 /* TutorialVideos-Bridging-Header.h */,
+				779D30DB1D71747C00554AF0 /* AboutUsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		779668181D6E81C900F7A3BE = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +123,12 @@
 		779668231D6E81CA00F7A3BE /* TutorialVideos */ = {
 			isa = PBXGroup;
 			children = (
+				77513B931D6FC49B00603D1F /* Controller */,
+				77513B8F1D6FB02200603D1F /* Model */,
+				77513B8B1D6FAB3D00603D1F /* View */,
+				7796683E1D6E81DD00F7A3BE /* Services */,
 				779668271D6E81CA00F7A3BE /* AppDelegate.h */,
 				779668281D6E81CA00F7A3BE /* AppDelegate.m */,
-				7796682A1D6E81CA00F7A3BE /* ViewController.h */,
-				7796682B1D6E81CA00F7A3BE /* ViewController.m */,
 				7796682D1D6E81CA00F7A3BE /* Main.storyboard */,
 				779668331D6E81CA00F7A3BE /* Assets.xcassets */,
 				779668351D6E81CA00F7A3BE /* LaunchScreen.storyboard */,
@@ -80,6 +145,16 @@
 				779668251D6E81CA00F7A3BE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7796683E1D6E81DD00F7A3BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7796683F1D6E820000F7A3BE /* HTTPService.h */,
+				779668401D6E820000F7A3BE /* HTTPService.m */,
+				771596261D72366300CE14C4 /* LocationAnnotation.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +229,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7796682C1D6E81CA00F7A3BE /* ViewController.m in Sources */,
+				771596271D72366300CE14C4 /* LocationAnnotation.swift in Sources */,
+				779D30D11D712D5B00554AF0 /* CommentCell.m in Sources */,
+				77513B8E1D6FAB6200603D1F /* VideoCell.m in Sources */,
+				779D30D71D714B4A00554AF0 /* customCommentView.m in Sources */,
+				779D30D41D71349000554AF0 /* Comment.m in Sources */,
+				779668411D6E820000F7A3BE /* HTTPService.m in Sources */,
 				779668321D6E81CA00F7A3BE /* TutorialVideos.xcdatamodeld in Sources */,
+				77513B961D6FC4D300603D1F /* VideoVC.m in Sources */,
 				779668291D6E81CA00F7A3BE /* AppDelegate.m in Sources */,
 				779668261D6E81CA00F7A3BE /* main.m in Sources */,
+				779D30DC1D71747C00554AF0 /* AboutUsVC.swift in Sources */,
+				77513B921D6FB0EC00603D1F /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TutorialVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarvinAndara.TutorialVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TutorialVideos/TutorialVideos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -281,10 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TutorialVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarvinAndara.TutorialVideos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TutorialVideos/TutorialVideos-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -307,6 +396,7 @@
 				7796683D1D6E81CA00F7A3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
